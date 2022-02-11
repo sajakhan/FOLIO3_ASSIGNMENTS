@@ -1,0 +1,42 @@
+.container {
+  border: 2px solid black;
+  margin: 20px;
+}
+/* --- title style ---  */
+.title {
+  text-align: center;
+}
+.titleOne {
+  background-color: pink;
+}
+.titleTwo {
+  background-color: red;
+  color: white;
+}
+.titleThree {
+  background-color: rgb(215, 247, 168);
+}
+/* -----flexbox style -----*/
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.flex-container div {
+  border: 2px solid black;
+  width: 500px;
+}
+.flex-container h4 {
+  float: right;
+  padding: 10px;
+  margin-top: 0px;
+  border: 2px solid black;
+  border-right: 0px;
+  border-top: 0px;
+  width: 100px;
+  text-align: center;
+}
+.flex-container p {
+  margin-top: 60px;
+  padding: 10px;
+}
