@@ -1,0 +1,513 @@
+
+    *{
+        margin:0;
+        padding:0;
+        font-family: Century gothic;
+    }
+
+
+    .header{
+       
+        background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(maldive.jpg);
+height:143vh;
+        background-size: cover;
+        background-position: center center;
+        
+    }
+    .menu{
+        z-index: 100;
+        position: fixed;
+        
+        float:right;
+        width:100%;
+        height:60px;
+        margin: 0 auto;
+        top:0;
+        background-color: white;
+    
+    }
+    
+    ul{
+        float:right;
+        
+     }
+
+   .item1{
+        display: inline-block;
+    margin-top:20px;
+        color:black;
+        margin-right:40px;
+        width :80px;
+        transition:width 0.5s;
+        
+
+    }
+     .item1{
+
+        color:black;
+        padding: 5px 15px;
+        border: 1px solid transparent;
+        transition: 0.5s ease;
+    }
+     .item1 span{
+        color:black;
+    }
+      .item1 span:hover{
+        color:white;
+    }
+    .item1:hover{
+        width:100px;
+    }
+
+    .item1:hover{
+        background-color: #F45A50;
+        color:white;
+    }
+    
+    .submenu{
+        text-decoration: none;
+        display: none;
+         background-color: rgba(0,0,0,0.2);
+        opacity:0.5;
+        position: absolute; 
+        width:220px;
+        height:220px;
+
+    
+    }
+    .header .menu .item1:hover .submenu{
+        display:block;
+        
+    }
+    .logo {
+        float:left;
+        font-family: "playfair display",serif;
+        font-size: 30px;
+        margin-left: 90px;
+        margin-top:10px;
+        color:black;
+        opacity:0.8;
+    }
+    
+    .title{
+    position:absolute;
+        top:60%;
+        left:50%;
+    transform:translate(-50%,-50%);
+    }
+    
+    .title h1 a{
+        color :white;
+        font-size:70px;
+                        font-family: "Playfair Display",serif;
+          font-weight: 400;
+
+
+        text-decoration: none;
+        
+        transition: 0.5s ease;
+                
+        
+
+    }
+    .title h2{
+        text-align:center;
+          color:white;
+        opacity:0.7;
+        margin-top:20px;
+        font-size:15px;
+        font-weight: 100;
+         font-family: "Playfair Display",serif;
+
+
+        text-decoration: none;
+        
+        
+                
+        
+    }
+   
+    
+    .title h1 a:hover{
+    
+        color:#F45A50;
+        font-size:80px;
+        border: 0px solid #F45A50;
+        border-top-width: 0px;
+                        border-top-left-radius: 15px;
+
+        border-bottom-width: 2px;
+        border-bottom-right-radius: 15px;
+      
+
+    }
+    body{
+                background-color:  #F4F4F4;
+        color: black;
+
+    }
+    .page{
+        text-align: center;
+                margin-top:90px;
+z-index:90;
+        
+    }
+    .word{
+font-size:25px;
+        color: white;
+        display:inline-block;
+        font-family: "montserrat",sans-serif;
+        margin-left: 30px;
+        border: 0px solid gray;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        padding:40px;
+        width:240px;
+        height:10px;
+         transition:0.3s ease;
+    
+        
+    }
+    .word:hover{
+        background-color: white;
+        opacity:0.6;
+        border:0px solid  #C7B696 ;
+        color:black;
+
+    }
+    .pageh{
+    
+        font-family:"montserrat",serif;
+        font-size:30px;
+    }
+    .iconic{
+        color:black;
+        margin-top:20px;
+        display:inline-block;
+        font-size: 50px;
+        padding:10px;
+       
+
+    }
+    .iconic span{
+         border-bottom: 2px solid black;
+        border-bottom-right-radius: 10px;
+        padding:10px;
+        
+    }
+    .page1{
+margin:0 auto;
+        z-index:90;
+        margin-top:0px;
+        background-color: white;
+    }
+    .iconic img{
+        margin:0 auto;
+        margin-left:50px;
+        margin-top:80px;
+        float:left;
+        border: none;
+        width:600px;
+    }
+    .glowclass{
+        background-color: white;
+        float:right;
+        color:black;
+        width:600px;
+        
+    }
+    
+    .glow {
+        float:right;
+        margin-right:300px;
+        margin-top:120px;
+        font-size: 30px;
+        font-family:arial;
+        font-weight: 800;
+       
+    }
+    .glowp{
+        float:right;
+        width:550px;
+        color:black;
+        font-size:15px;
+        margin-top:40px;
+        margin-right: 50px;
+    }
+    .page2{
+          background-image:  url(room.jpg);
+height:120vh;
+        text-align:center;
+background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        z-index:80;
+    
+        
+    }
+    .page3{
+         display:inline-block;
+        background-color: white;
+        opacity:0.8;
+        margin:0 auto;
+        text-align: center;
+         padding-top:20px;
+        margin-top:150px;
+         height: 200px;
+        width:900px;
+        
+    }
+    .page3 span{
+       
+        font-size:30px;
+       
+        border-bottom: 5px solid #F45A50 ;
+            padding:10px;
+        font-weight:600;
+        color:black;
+
+       
+    }
+    .page3 p{
+margin-top:60px;
+        color:black;
+    }
+    .page4{
+    
+        margin-top:130px;
+        background-color:white;
+        height:500px;
+        width: 100%;
+        color:black;
+        
+    }
+    .page4 img{
+        margin:50px 50px;
+        margin-right: 150px;
+        height:400px;
+        float:right;
+    }
+    .page4 span{
+        position: absolute;
+        padding:30px;
+        margin-top:140px;
+        display: inline-block;
+        background-color:#F4F4F4;
+        height:200px;
+        width:400px;
+            
+    }
+    .page4 h1{
+text-align: left;
+        font-weight:800;
+        
+    }
+    .page4 p{
+        text-align: left;
+        font-size: 12px;
+        color:black;
+        margin-top:20px;
+    }
+    .button{
+        display: inline-block;
+float:left;
+        
+        color:white;
+        border:1px solid #F45A50 ;
+        font-size:15px;
+        padding:15px;
+                opacity:0.8;
+
+        margin-top:15px;
+        background-color: #F45A50;
+        transition: 0.5s ease;
+    }
+    .button:hover{
+        opacity:1;
+        color:black;
+                background-color: #F45A50;
+
+        width:120px;
+    }
+    .last{
+        background-color: #333333;
+        width:100%;
+        margin:0 auto;
+        margin-top:30px;
+        height:600px;
+    }
+    .about{
+        margin-top:80px;
+        margin-left:50px;
+        color:white;
+        display:inline-block;
+        height:200px;
+        width:300px;
+        
+        float:left;
+    }
+    
+    .about span{
+        text-align: :left;
+        font-size:25px;
+        font-weight:400;
+    
+    }
+    .about p{
+        margin-top:15px;
+        text-align:left;
+        font-size:15px;
+        opacity:0.5;
+        color:lightgray;
+    }
+    .b{
+        display: inline-block;
+        width:120px;
+        float:left;
+        margin-top:20px;
+        padding-top:10px;
+        height:30px;
+        color:black;
+        border:1px solid #F45A50;
+        border-radius: 30px;
+        background-color: #F45A50;
+        transition:0.8s ease;
+    }
+    .b:hover{
+        color:white;
+        width: 140px;
+
+        
+    }
+    .q{
+        color:white;
+        float:left;
+        display:inline-block;
+        font-size:23px;
+        margin-top:80px;
+        margin-left:90px;
+        height:70px;
+        width:200px;
+=    }
+    .menu2{
+        text-align:left;
+        margin-top:30px;
+        display :inline-block;
+        height:15px;
+        font-family: arial;
+        width:300px;
+    }
+    .q a{
+        font-size:15px;
+        font-family: arial;
+        color:lightgray;
+        opacity:0.5;
+        text-decoration: none;
+        transition:0.5s ease;
+        
+        
+    }
+    ul li{
+        text-align: center;
+      }
+    .q a:hover{
+        opacity:1;
+        color:white;
+    
+    }
+    .last img{
+        margin-top:50px;
+    }
+    .last img:hover{
+        opacity:0.5;
+    }
+    .checkbtn{
+        font-size: 25px;
+        float:right;
+        margin:20px 30px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+    @media (max-width: 952px){
+        .logo{
+            font-size:30px;
+            padding-left: 50px;
+            
+        }
+        .item1{
+            font-size: 15px;
+            
+        }
+        
+        
+    }
+    @media (max-width: 858px){
+        
+        body{
+        }
+        .checkbtn{
+            display:block;
+        }
+        ul{
+            position:fixed;
+            width:100%;
+            height:100vh;
+            background-color:#F45A50;
+            position: relative;
+            top: -5px;
+            text-align: center;
+            left:-100%;
+            transition:all 0.5s ease;
+            
+        }
+      .item1{
+            display:block;
+          padding-top:20px;
+          text-align: center;
+          margin-left: 200px;
+          font-size:20px;
+            
+        }
+        .item1:hover{
+            opacity:0.7;
+            transition:0.5s ease;
+        }
+        #check:checked ~ ul{
+            left:0;
+        }
+        .last{
+            height:auto;
+             width:auto;
+
+        }
+        .page1{
+            height:auto;
+        }
+        .iconic img {
+            width:90%;
+        }
+        .glowclass {
+            height:auto;
+            width:auto;
+        }
+        .glow{
+            width:auto;
+        }
+        .glowp{
+            width:auto;
+        }
+        .page3{
+            height:auto;
+            width:auto;
+         
+        }
+        
+     
+        
+        
+    }
+
+    
