@@ -7,11 +7,15 @@ The first design that I came up with was after looking through many highend onli
 
 ![Screenshot (196)](https://user-images.githubusercontent.com/71625732/153620697-5105e2c9-a3ad-464e-b85c-756203bb26a0.png)
 
+A slider to view the latest trendy makeup products
+
 ![Screenshot (198)](https://user-images.githubusercontent.com/71625732/153620769-61bb020f-be10-40ec-b9be-b1197b6f2b0c.png)
 
 ![Screenshot (200)](https://user-images.githubusercontent.com/71625732/153620784-396cb1a7-4941-465d-8ce3-6c5e185c39e8.png)
 
 ![Screenshot (197)](https://user-images.githubusercontent.com/71625732/153620801-8ab29b3c-3e71-45e1-8419-3d3235c267e1.png)
+
+This section in particular was inspired by sephoras website featuring all latest brands
 
 ![Screenshot (199)](https://user-images.githubusercontent.com/71625732/153620820-cd12b474-925c-4028-b733-32be233fc0d4.png)
 
